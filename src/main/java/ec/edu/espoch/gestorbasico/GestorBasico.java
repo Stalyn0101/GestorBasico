@@ -4,6 +4,8 @@
 
 package ec.edu.espoch.gestorbasico;
 
+import ec.edu.espoch.gestorbasico.Vista.Principal;
+
 /**
  *
  * @author USER
@@ -11,6 +13,8 @@ package ec.edu.espoch.gestorbasico;
 public class GestorBasico {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Principal objPrincipal = new Principal();
+        objPrincipal.setVisible (true);
+       
     }
 }
