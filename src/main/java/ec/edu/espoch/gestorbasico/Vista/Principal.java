@@ -4,6 +4,7 @@
  */
 package ec.edu.espoch.gestorbasico.Vista;
 
+import ec.edu.espoch.gestorbasico.Controlador.Controlador;
 import ec.edu.espoch.gestorbasico.Vista.TesterVista.TesterVista;
 
 /**
@@ -19,7 +20,7 @@ public class Principal extends javax.swing.JFrame {
      */
     public Principal() {
         initComponents();
-        //this.tester = new TesterVista(this);
+        this.tester = new Controlador(this);
     }
 
     /**
