@@ -11,7 +11,7 @@ import ec.edu.espoch.gestorbasico.Vista.TesterVista.TesterVista;
  * @author ADMIN
  */
 public class Principal extends javax.swing.JFrame {
-    private TesterVista tester;
+    private Controlador tester;
     
 
     /**
