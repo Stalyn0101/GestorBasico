@@ -2,15 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package ec.edu.espoch.gestorbasico.Vista.TesterVista;
+package ec.edu.espoch.gestorbasico.TesterVista;
 
 import ec.edu.espoch.gestorbasico.Vista.Principal;
 
-/**
- *
- * @author ADMIN
- */
+
 public class TesterVista {
+    
     private Principal principal;
     
     public TesterVista(Principal principal){
@@ -26,4 +24,6 @@ public class TesterVista {
         System.out.println("Estado: "+principal.getEstado());
     //}
     }
+}
+    
 }
